@@ -17,6 +17,11 @@ public class CalculadoraTaller {
     public static void main(String[] args) {
         Multiplicacion objM = new Multiplicacion();
         objM.multiplica();
+        Suma objSum = new Suma();
+        objSum.sumar();
+        Division objDiv = new Division();
+        objDiv.division();
+
     }
     
 }
