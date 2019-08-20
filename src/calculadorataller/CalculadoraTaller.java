@@ -15,8 +15,10 @@ public class CalculadoraTaller {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-           Suma objSum = new Suma();
+        Suma objSum = new Suma();
         objSum.sumar();
+        Division objDiv = new Division();
+        objDiv.division();
     }
     
 }
